@@ -1,0 +1,166 @@
+.logodefaultChild,
+.logosaasIcon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.logodefaultChild {
+  height: 80.49%;
+  top: 14.63%;
+  bottom: 4.88%;
+  background: linear-gradient(
+    89.43deg,
+    #f87bff,
+    #fb92cf 24.06%,
+    #ffdd9b 48.2%,
+    #c2f0b1 72.84%,
+    #2fd8fe
+  );
+  filter: blur(11px);
+}
+.logosaasIcon {
+  height: 97.56%;
+  top: 0;
+  bottom: 2.44%;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logodefault {
+  height: 41px;
+  width: 40px;
+  position: relative;
+}
+.madeBy {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.blackHorizontal1Icon {
+  height: 22px;
+  width: 68px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.about,
+.features {
+  position: relative;
+  display: inline-block;
+  
+}
+.about {
+  height: 23px;
+  width: 45px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  
+}
+.features {
+  width: 65px;
+}
+.customers,
+.features,
+.updates {
+  height: 23px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.customers {
+  width: 81px;
+  position: relative;
+  display: inline-block;
+}
+.updates {
+  width: 63px;
+}
+.getForFree,
+.help,
+.updates {
+  position: relative;
+  display: inline-block;
+}
+.help {
+  height: 23px;
+  width: 35px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.getForFree {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  min-width: 85px;
+}
+.buttons,
+.navBarDesktop,
+.stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: #e6e6e6;
+}
+.navBarDesktop,
+.stack {
+  max-width: 100%;
+}
+.stack {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+  
+
+}
+.navBarDesktop {
+  align-self: stretch;
+  background-color: #040404;
+  backdrop-filter: blur(14px);
+  justify-content: center;
+  padding: 20px 20.5px;
+  box-sizing: border-box;
+  gap: 63px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .stack {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navBarDesktop {
+    gap: 31px;
+  }
+}

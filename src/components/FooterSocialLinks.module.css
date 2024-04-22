@@ -1,0 +1,222 @@
+.footerSocialLinksChild {
+  width: 1200px;
+  height: 1754px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  display: none;
+  max-width: 100%;
+}
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.frameWrapper,
+.h2Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h2Parent {
+  align-self: stretch;
+  gap: 20px;
+}
+.frameWrapper {
+  width: 540px;
+  max-width: 100%;
+}
+.appNightIcon {
+  align-self: stretch;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.071);
+}
+.frameParent,
+.wrapperAppNight {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperAppNight {
+  height: 678px;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex-direction: column;
+  gap: 60px;
+  max-width: 100%;
+}
+.h21 {
+  margin: 0;
+  width: 650px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  
+}
+.h2Wrapper,
+.nA {
+  align-items: flex-start;
+}
+.h2Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 9px 0 16px;
+}
+.nA {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.faqs,
+.frameGroup,
+.nA {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.faqs {
+  align-self: stretch;
+  height: 339px;
+  align-items: flex-start;
+  padding: 0 1px 84.7px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+}
+.frameGroup {
+  width: 675px;
+  align-items: flex-end;
+  gap: 47px;
+}
+.footerSocialLinksInner {
+  width: 1077px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.footerSocialLinks {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 68px 62px 182px 46px;
+  box-sizing: border-box;
+  gap: 145px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    gap: 30px;
+  }
+  .footerSocialLinks {
+    padding-top: 44px;
+    padding-bottom: 118px;
+    box-sizing: border-box;
+  }
+  
+}
+@media screen and (max-width: 1050px) {
+  .h2,
+  .h21 {
+    font-size: 43px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .footerSocialLinks {
+    padding-top: 29px;
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+  
+}
+@media screen and (max-width: 750px) {
+  .faqs {
+    height: auto;
+  }
+  .frameGroup {
+    gap: 23px;
+  }
+  .footerSocialLinks {
+    gap: 72px;
+    padding: 44px 31px 118px 23px;
+    box-sizing: border-box;
+  }
+  .frameGroup{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .h21 {
+    font-size: 22px;
+    line-height: 36px;
+    justify-content: center;
+    text-align: right;
+  }
+  .faqs,
+  .footerSocialLinks {
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+  .footerSocialLinks {
+    gap: 36px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+}

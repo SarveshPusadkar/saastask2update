@@ -1,0 +1,39 @@
+.howDoesThe {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  min-width: 237px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.appNameLogo {
+  height: 18.8px;
+  width: 18.8px;
+  position: relative;
+}
+.formfaq,
+.frame {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frame {
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 3px;
+}
+.formfaq {
+  align-self: stretch;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 0;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: "DM Sans";
+}

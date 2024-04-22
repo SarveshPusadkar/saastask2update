@@ -1,0 +1,292 @@
+.heroChild {
+  width: 1200px;
+  height: 730px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.fAQsForm {
+  width: 2344px;
+  height: 1014px;
+  position: absolute;
+  margin: 0 !important;
+  right: -410px;
+  bottom: -839px;
+  border-radius: 50%;
+  background: radial-gradient(45% 50%at 50% 50%, #000 88.2%, #9560eb);
+  border: 0 solid #b48cde;
+  box-sizing: border-box;
+  z-index: 1;
+  border: 1px solid #B48CDE;
+
+}
+.readMore,
+.version20Is {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 31px;
+  font-weight: 500;
+}
+.version20Is {
+  width: calc(100% - 16px);
+  border: 0;
+  outline: 0;
+  font-family: Inter;
+  font-size: 13px;
+  background-color: transparent;
+  height: 11px;
+  flex: 1;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 70px;
+  padding: 0;
+}
+.readMore {
+  display: inline-block;
+  min-width: 66px;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.readMoreParent {
+  gap: 4px;
+}
+.readMoreParent,
+.tag,
+.version20IsHereParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.version20IsHereParent {
+  flex: 1;
+}
+.tag {
+  width: 229px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 12px;
+  text-align: left;
+}
+.atATime,
+.h1,
+.oneTask {
+  margin: 0;
+}
+.h1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 165px;
+  letter-spacing: -0.07em;
+  line-height: 125px;
+  font-weight: 700;
+  font-family: "DM Sans";
+}
+.body,
+.getForFree {
+  position: relative;
+  display: inline-block;
+}
+.body {
+  margin: 0;
+  width: 457px;
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.getForFree {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  min-width: 85px;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: #e6e6e6;
+}
+.cursor1Icon {
+  z-index: 3;
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  transform: scale(1.14);
+}
+.cursor1Icon,
+.cursor2Icon,
+.wrapperCursor1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.wrapperCursor1 {
+  top: 0;
+  left: 1px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor2Icon {
+  top: 3px;
+  left: 0;
+  object-fit: cover;
+  z-index: 4;
+}
+.yourCompanyInc {
+  width: 201px;
+  height: 203px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 129.5px;
+  left: -143px;
+}
+.message2Icon {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.14);
+}
+.message1Icon,
+.wrapperMessage2 {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+.wrapperMessage2 {
+  top: 6px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message1Icon {
+  top: 0;
+  object-fit: cover;
+  z-index: 4;
+}
+.wrapperMessage2Parent {
+  width: 200px;
+  height: 206px;
+  position: absolute;
+  margin: 0 !important;
+  top: 109.5px;
+  right: -162px;
+}
+.heroContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 32px;
+  max-width: 100%;
+  z-index: 2;
+}
+.hero,
+.pulseShape {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  overflow: hidden;
+  flex-direction: column;
+  padding: 64.5px 279px 147px;
+  position: relative;
+  min-height: 731px;
+}
+.pulseShape {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .h1 {
+    font-size: 66px;
+    line-height: 75px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroContent {
+    gap: 16px;
+  }
+  .hero {
+    padding: 42px 139px 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .wrapperMessage2Parent,
+  .yourCompanyInc
+  {
+    display: none;
+  }
+}
+

@@ -1,0 +1,167 @@
+.body,
+.h2 {
+  position: relative;
+}
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  width: 447px;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: Inter;
+  color: #bbb;
+  display: inline-block;
+  max-width: 100%;
+}
+.nameField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.form1,
+.getForFree {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+}
+.form1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 42px;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11.5px 12px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.5);
+  min-width: 186px;
+}
+.getForFree {
+  position: relative;
+  letter-spacing: -0.02em;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: #e6e6e6;
+}
+.form,
+.inputForm,
+.nameFieldParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.form {
+  width: 409px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.inputForm,
+.nameFieldParent {
+  flex-direction: column;
+}
+.nameFieldParent {
+  width: 540px;
+  justify-content: center;
+  gap: 40px;
+}
+.inputForm {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 405px);
+  background-color: #05020a;
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 130.5px 20px;
+  box-sizing: border-box;
+  min-height: 469px;
+}
+.graphIcon,
+.helixIcon {
+  position: absolute;
+  top: 15px;
+  left: -85px;
+  width: 234px;
+  height: 234px;
+  object-fit: cover;
+  z-index: 1;
+}
+.helixIcon {
+  top: 160.2px;
+  left: 625.2px;
+  width: 268.5px;
+  height: 268.5px;
+  object-fit: contain;
+}
+.instantAccess {
+  align-self: stretch;
+  height: 487px;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -1px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 750px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .nameFieldParent {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .instantAccess {
+    height: auto;
+    min-height: 487;
+  }
+}

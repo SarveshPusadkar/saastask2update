@@ -1,0 +1,195 @@
+.purpleGradient {
+  width: 809px;
+  height: 1643px;
+  position: relative;
+  background: linear-gradient(179.99deg, #000, #4c248a 37.75%, #05020a);
+  display: none;
+  max-width: 100%;
+}
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.frameWrapper,
+.h2Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h2Parent {
+  align-self: stretch;
+  gap: 20px;
+}
+.frameWrapper {
+  width: 540px;
+  max-width: 100%;
+}
+.appNightIcon {
+  align-self: stretch;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.11);
+}
+.frameParent,
+.wrapperAppNight {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperAppNight {
+  height: 437px;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex-direction: column;
+  padding: 0 3px;
+  box-sizing: border-box;
+  gap: 60px;
+  max-width: 100%;
+  z-index: 1;
+}
+.h21 {
+  margin: 0;
+  width: 650px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.faqs,
+.footer,
+.h2Wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.h2Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 9px 0 16px;
+}
+.faqs,
+.footer {
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+}
+.faqs {
+  height: 339px;
+  padding: 0 1px 84.7px;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: 18px;
+}
+.faqs,
+.frameContainer,
+.frameGroup,
+.purpleGradientParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 47px;
+}
+.frameContainer,
+.purpleGradientParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 18px 0 17px;
+  box-sizing: border-box;
+}
+.purpleGradientParent {
+  background: linear-gradient(179.99deg, #000, #4c248a 37.75%, #05020a);
+  flex-direction: column;
+  padding: 93px 49px 184px 50px;
+  gap: 248px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 750px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .frameParent {
+    gap: 30px;
+  }
+  .h21 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .faqs {
+    height: auto;
+  }
+  .frameGroup {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .h21 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .faqs {
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+  .purpleGradientParent {
+    gap: 124px;
+    padding: 25px 20px 51px;
+    box-sizing: border-box;
+  }
+  .h21{
+    width: 237px;
+    height: 78px;
+  }
+}

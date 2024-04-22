@@ -1,0 +1,124 @@
+.trustedByThe {
+  position: relative;
+}
+.acme1Icon {
+  align-self: stretch;
+  width: 146.4px;
+  max-height: 100%;
+  min-height: 32px;
+}
+.acme1Icon,
+.echo1Icon,
+.quantum1Icon {
+  position: relative;
+  object-fit: cover;
+}
+.quantum1Icon {
+  align-self: stretch;
+  width: 125.1px;
+  max-height: 100%;
+  min-height: 32px;
+}
+.echo1Icon {
+  height: 28.1px;
+  width: 160px;
+}
+.selectElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 38px;
+}
+.celestia1Icon {
+  align-self: stretch;
+  width: 115.4px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 28px;
+}
+.apex1Icon,
+.pulse1Icon {
+  height: 22.3px;
+  width: 100.8px;
+  position: relative;
+  object-fit: cover;
+}
+.apex1Icon {
+  height: 27.2px;
+  width: 85.3px;
+}
+.celestia1Parent,
+.labelDisplay {
+  align-items: center;
+  justify-content: center;
+}
+.celestia1Parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 38px;
+  max-width: 100%;
+}
+.labelDisplay {
+  flex-direction: column;
+  padding: 0 61.3px 0 61.2px;
+  gap: 12px;
+}
+.labelDisplay,
+.logos,
+.rowContainer {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rowContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 11px;
+  gap: 38px;
+}
+.logos {
+  align-self: stretch;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px 69px 2.9px;
+  text-align: left;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .selectElement {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 675px) {
+  .selectElement {
+    gap: 19px;
+  }
+  .labelDisplay {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  .rowContainer {
+    gap: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .celestia1Parent {
+    gap: 19px;
+  }
+  .logos {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

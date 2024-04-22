@@ -1,0 +1,284 @@
+.trustedLogos {
+  width: 1924px;
+  height: 1014px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -780px;
+  left: -559px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #000 82.2%, #9560eb);
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #BE9AE7 0%, rgba(106, 86, 129, 0) 58.33%);
+  border: 0 solid #b48cde;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.readMore,
+.version20Is {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 31px;
+  font-weight: 500;
+}
+.version20Is {
+  width: 157px;
+  border: 0;
+  outline: 0;
+  font-family: Inter;
+  font-size: 13px;
+  background-color: transparent;
+  height: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.readMore {
+  display: inline-block;
+  min-width: 66px;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.helixElement {
+  padding: 0 20px;
+  gap: 4px;
+}
+.accessButton,
+.helixElement,
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.accessButton {
+  flex: 1;
+}
+.tag {
+  width: 229px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 12px;
+  text-align: left;
+}
+.atATime,
+.h1,
+.oneTask {
+  margin: 0;
+}
+.h1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 154px;
+  letter-spacing: -0.02em;
+  line-height: 120px;
+  font-weight: 600;
+  font-family: Switzer;
+}
+.body,
+.getForFree {
+  position: relative;
+  display: inline-block;
+}
+.body {
+  margin: 0;
+  width: 457px;
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.getForFree {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  min-width: 85px;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: #e6e6e6;
+}
+.cursor1Icon {
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  transform: scale(1.155);
+}
+.cursor1Icon,
+.cursor2Icon,
+.wrapperCursor1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.wrapperCursor1 {
+  top: 0;
+  left: 0.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor2Icon {
+  top: 2.7px;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.cursor {
+  width: 181.2px;
+  height: 183px;
+  position: absolute;
+  margin: 0 !important;
+  top: 101.5px;
+  left: -131.5px;
+  z-index: 3;
+}
+.heroContent {
+  position: absolute;
+  top: 64.5px;
+  left: 87.5px;
+  width: 635px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 100%;
+  z-index: 2;
+}
+.message2Icon,
+.shapeSymbols {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.shapeSymbols {
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+}
+.message2Icon {
+  object-fit: contain;
+  transform: scale(1.185);
+}
+.wrapperMessage2 {
+  top: 4.5px;
+  left: 0;
+  height: 151.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message,
+.message1Icon,
+.wrapperMessage2 {
+  position: absolute;
+  width: 151.5px;
+}
+.message1Icon {
+  top: 0;
+  left: 0;
+  height: 151.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.message {
+  top: 196px;
+  left: 681px;
+  height: 156px;
+  z-index: 3;
+}
+.shapeSymbolsParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1200px;
+}
+.hero,
+.heroContentParent {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.heroContentParent {
+  height: 731px;
+}
+.hero {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: 62px;
+    line-height: 72px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tag {
+    width: calc(100% - 40px);
+  }
+  .h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .buttons {
+    width: calc(100% - 40px);
+  }
+  
+  .trustedLogos{
+    width: 909px;
+    height: 359px;
+    top: 472px;
+    left: -273px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  .cursor2Icon{
+    display: none;
+  }
+}

@@ -1,0 +1,82 @@
+.icons,
+.thisPageIs,
+.viewTheComplete {
+  position: relative;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bar,
+.stack1,
+.versionIsHere {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.versionIsHere {
+  justify-content: flex-start;
+  gap: 3px;
+}
+.bar,
+.stack1 {
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.stack1 {
+  flex-wrap: wrap;
+  padding: 0 4.5px;
+}
+.bar {
+  align-self: stretch;
+  background: linear-gradient(
+    90deg,
+    #feecff,
+    #fecaff 11.71%,
+    #feb5ff 26.8%,
+    #ffdbe7 40.18%,
+    #fff4d6 49.22%,
+    #f3fcd7 58.71%,
+    #d2f5ee 71.29%,
+    #c3efff 84.44%,
+    #fbefff
+  );
+  padding: 14px 20px;
+}
+.desktop,
+.stack {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stack {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: "DM Sans";
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 15px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 450px){
+.thisPageIs{
+  display: none;
+}
+}

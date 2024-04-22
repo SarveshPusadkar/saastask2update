@@ -1,0 +1,71 @@
+.icons,
+.thisPageIs,
+.viewTheComplete {
+  position: relative;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewTheCompleteKitParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.bar,
+.thisPageIsIncludedInAFreParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.thisPageIsIncludedInAFreParent {
+  flex-wrap: wrap;
+  padding: 0 4.5px;
+}
+.bar {
+  align-self: stretch;
+  background: linear-gradient(
+    90deg,
+    #feecff,
+    #fecaff 11.71%,
+    #feb5ff 26.8%,
+    #ffdbe7 40.18%,
+    #fff4d6 49.22%,
+    #f3fcd7 58.71%,
+    #d2f5ee 71.29%,
+    #c3efff 84.44%,
+    #fbefff
+  );
+  padding: 14px 20px;
+}
+.accessButtonInstance,
+.tablet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accessButtonInstance {
+  align-self: stretch;
+  max-width: 100%;
+}
+.tablet {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 565px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: "DM Sans";
+}

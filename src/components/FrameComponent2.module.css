@@ -1,0 +1,148 @@
+.trustedByThe {
+  position: relative;
+  
+}
+.formInstance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.acme1Icon {
+  width: 146.4px;
+  max-height: 100%;
+  min-height: 32px;
+  
+}
+.acme1Icon,
+.echo1Icon,
+.quantum1Icon {
+  align-self: stretch;
+  position: relative;
+  object-fit: cover;
+}
+.quantum1Icon {
+  width: 125.1px;
+  max-height: 100%;
+  min-height: 32px;
+}
+.echo1Icon {
+  height: 28.1px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.echo1Wrapper {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.9px 0 0;
+  box-sizing: border-box;
+}
+.celestia1Icon {
+  align-self: stretch;
+  height: 28.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.celestia1Wrapper {
+  width: 115.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.9px 0 0;
+  box-sizing: border-box;
+}
+.pulse1Icon {
+  align-self: stretch;
+  height: 22.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.pulse1Wrapper {
+  width: 100.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.8px 0 0;
+  box-sizing: border-box;
+}
+.apex1Icon {
+  align-self: stretch;
+  height: 27.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dividerShape {
+  width: 85.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.4px 0 0;
+  box-sizing: border-box;
+}
+.getFreeButtonInstance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.formInstanceParent,
+.stackInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.formInstanceParent {
+  width: 1023.1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 38px;
+}
+.stackInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 21px 164px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .getFreeButtonInstance {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .formInstanceParent {
+    gap: 19px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .trustedByThe{
+    width: 185px;
+    text-align: center;
+  }
+}

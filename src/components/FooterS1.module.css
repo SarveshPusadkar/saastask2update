@@ -1,0 +1,51 @@
+.yourCompanyInc {
+  align-self: stretch;
+  position: relative;
+}
+.companyCopyright {
+  width: 299px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.socialsIcon,
+.socialsIcon1,
+.socialsIcon2,
+.socialsIcon3,
+.socialsIcon4,
+.socialsIcon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.footerCompanyInfo,
+.footerS {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.footerS {
+  align-self: stretch;
+  background-color: #05020a;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  justify-content: space-between;
+  padding: 20px 29px 20px 40px;
+  gap: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 675px) {
+  .footerS {
+    flex-wrap: wrap;
+  }
+}

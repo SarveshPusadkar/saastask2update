@@ -1,0 +1,100 @@
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.featureCardsParent,
+.h2Parent,
+.pageFooterInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h2Parent {
+  align-self: stretch;
+  gap: 20px;
+}
+.featureCardsParent,
+.pageFooterInner {
+  width: 540px;
+  max-width: 100%;
+}
+.featureCardsParent {
+  width: 360px;
+  justify-content: center;
+  gap: 16px;
+  font-size: 18px;
+}
+.nd,
+.pageFooter {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pageFooter {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 66px;
+}
+.nd {
+  align-self: stretch;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 121px 48px 124px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 750px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .pageFooter {
+    gap: 33px;
+  }
+  .nd {
+    padding-top: 51px;
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .pageFooter {
+    gap: 16px;
+  }
+  .nd {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
